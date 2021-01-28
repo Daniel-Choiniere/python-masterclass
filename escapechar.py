@@ -17,3 +17,8 @@ split
 over several lines"""
 
 print(anotherSplitString)
+
+# escaping backslash characters by using double backslashes or using the "raw string"
+print("C:\\Users\\tanchoiniere\\notes.txt")
+print(r"C:\Users\tanchoiniere\notes.txt")
+
