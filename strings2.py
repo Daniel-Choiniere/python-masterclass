@@ -38,6 +38,9 @@ print(parrot[-4:]) # Blue
 print(parrot[-4:14]) # Blue
 
 # Slicing using step
+print(parrot[0:6:2]) # Nre
+print(parrot[0:6:3]) # Nw
 
-
-
+number = "9,223:373:036 854,775:807"
+seperators = number[1::4]
+print(seperators)
