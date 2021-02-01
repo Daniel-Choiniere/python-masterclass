@@ -16,3 +16,8 @@ print(greeting + ' ' + name)
 print(type(greeting))
 print(type(age))
 
+# F-strings
+# print(name + "is " + age + " years old") - This will not work because we can not concatanate a int and a string
+# With f- Strings we can do it
+print(name + f" is {age} years old")
+print(type(age))
